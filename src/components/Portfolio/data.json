@@ -1,0 +1,44 @@
+{
+    "portfolio" : [
+        {
+            "cover" : "/portfolio/about01.png",
+            "language" : "React",
+            "title" : "WorkSpace",
+            "description" : "Built in React, a tool to encourage positive self regulated student learning.",
+            "url" : "http://www.google.com",
+            "code" : "http://www.google.com"
+        },
+        {
+            "cover" : "/portfolio/logo1.png",
+            "language" : "React",
+            "title" : "Companion",
+            "description" : "Built in React Native, a app that has diverse features including, audio, api's and location services.",
+            "url" : "http://www.google.com",
+            "code" : "http://www.google.com"
+        },
+        {
+            "cover" : "/portfolio/about01.png",
+            "language" : "React",
+            "title" : "WorkSpace",
+            "description" : "Built in React, a tool to encourage positive self regulated student learning.",
+            "url" : "http://www.google.com",
+            "code" : "http://www.google.com"
+        },
+        {
+            "cover" : "/portfolio/about01.png",
+            "language" : "React",
+            "title" : "WorkSpace",
+            "description" : "Built in React, a tool to encourage positive self regulated student learning.",
+            "url" : "http://www.google.com",
+            "code" : "http://www.google.com"
+        },
+        {
+            "cover" : "/portfolio/about01.png",
+            "language" : "React",
+            "title" : "WorkSpace",
+            "description" : "Built in React, a tool to encourage positive self regulated student learning.",
+            "url" : "http://www.google.com",
+            "code" : "http://www.google.com"
+        }
+    ]
+}

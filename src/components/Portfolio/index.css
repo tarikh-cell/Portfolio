@@ -1,0 +1,79 @@
+.site-container {
+    width: 80%;
+    margin: auto;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-card {
+    width: 18%;
+    height: 50vh;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+    margin: 4vh;
+    animation: fadeInUp 2s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 0px 5px inset var(--primary-color);
+    
+}
+
+.portfolio-image {
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-content {
+    text-align: left;
+    height: 34%;
+    padding: 1vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-date {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: inline-flex;
+    font-family: Coolvetica;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 18px;
+}
+
+.card-description {
+    margin: 0;
+    font-size: 13px;
+    padding: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    color: black;
+    background: var(--primary-color);
+}
