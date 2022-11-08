@@ -24,3 +24,7 @@
 .link:hover {
     color: var(--primary-color);
 }
+
+.link:focus {
+    color: var(--primary-color);
+}

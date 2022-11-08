@@ -27,15 +27,15 @@ const Contact = () => {
             </div>
             <div className='contact-card'>
             <FontAwesomeIcon icon={faGithub} className='contact-circle' />
-            <p><p className='cool-text'>Github:</p><br/> <a href='http://www.google.com'>tarikh-cell</a></p>
+            <p><p className='cool-text'>Github:</p><br/> <a href='https://github.com/tarikh-cell'>tarikh-cell</a></p>
             </div>
             <div className='contact-card'>
             <FontAwesomeIcon icon={faLinkedin} className='contact-circle' />
-            <p><p className='cool-text'>LinkedIn: </p><br/><a href='http://www.google.com'>Tarikh Mukhtar</a></p>
+            <p><p className='cool-text'>LinkedIn: </p><br/><a href='https://www.linkedin.com/in/tarikh-mukhtar-9baa7720a/'>Tarikh Mukhtar</a></p>
             </div>
             <div className='contact-card'>
             <FontAwesomeIcon icon={faGooglePlay} className='contact-circle' />
-            <p><p className='cool-text'>GooglePlay: </p><br/><a href='http://www.google.com'>Tarikh Mukhtar</a></p>
+            <p><p className='cool-text'>GooglePlay: </p><br/><a href='https://play.google.com/store/apps/developer?id=Tarikh+Mukhtar'>Tarikh Mukhtar</a></p>
             </div>
             </div>
         </div>

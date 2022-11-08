@@ -77,6 +77,7 @@
     margin: auto;
     width: 100%;
     overflow: hidden;
+    pointer-events: none;
 }
 
 .line {
@@ -93,8 +94,10 @@
 .streak {
     width: 15vh;
     height: 1px;
-    background-color: #fff;
+    background-color: var(--primary-color);
+    box-shadow: 5px 5px var(--primary-color);
     animation: drop 2.5s infinite;
+    /* animation-direction: alternate; */
 }
 
 

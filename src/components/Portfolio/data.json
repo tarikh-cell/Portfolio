@@ -25,7 +25,7 @@
             "code" : "http://www.google.com"
         },
         {
-            "cover" : "/portfolio/about01.png",
+            "cover" : "/portfolio/companion.png",
             "language" : "React",
             "title" : "WorkSpace",
             "description" : "Built in React, a tool to encourage positive self regulated student learning.",

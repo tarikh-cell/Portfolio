@@ -3,11 +3,7 @@
 }
 
 .intro {
-    background-image: linear-gradient(transparent, black), url("./bg2.jpg");
     height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     align-items: center;
 }
@@ -19,7 +15,7 @@
 
 .section-title {
     font-weight: bold;
-    border-bottom: 4px solid grey;
+    border-bottom: 4px solid var(--primary-color);
     border-top-right-radius: 50%;
     display: inline;
 }
@@ -50,30 +46,33 @@
     margin: 2vh;
 }
 
-button, .flat-button {
-    color: #25aae1;
+.flat-button {
+    color: var(--primary-color);
     font-size: 15px;
     font-weight: 500;
     text-align: center;
     text-decoration: none;
     padding: 10px 15px;
-    border-width: 1px;
-    border-color: #25aae1;
+    border: 1px solid var(--primary-color);
     border-radius: 5px;
-    background-color: #000;
-    box-shadow: 1px #000;
+    background-color: transparent;
+}
+
+.flat-button:hover {
+    transform: translateY(-3px);  
+    background: var(--primary-color);
+    color: black;
 }
 
 .text-animate {
     display: inline-block;
     margin: 0;
     padding: 5px;
-    animation: bounceIn;
 }
   
 .text-animate:hover {
     animation: swing 1s ease-in-out;
-    color: #30dd8a;
+    color: var(--primary-color);
 }
 
 @keyframes swing {
@@ -135,7 +134,7 @@ button, .flat-button {
     font-size: 30px;
     align-items: center;
     font-weight: bold;
-    background: -webkit-linear-gradient(#25aae1, #40e495);
+    background: -webkit-linear-gradient(var(--primary-color), rgb(123, 36, 36));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     height: 50px;
@@ -153,22 +152,22 @@ button, .flat-button {
     padding: 10px;
 }
 
-.o {
-    font-size: 15px;
-}
-
 .log{
     background-color: #fff;
+    border: 1 solid var(--primary-color);
     border-radius: 50%;
     padding: 2vh;
     width: 4vh;
     margin: 2vh;
+    transition: 0.2s;
 }
 
+.log:hover {
+    transform: scale(1.2);
+}
 
 section {
     font-size: 11px;
-    font-family: Calibri;
     color: gray;
 }
 
