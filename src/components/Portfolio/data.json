@@ -2,23 +2,7 @@
     "portfolio" : [
         {
             "cover" : "/portfolio/about01.png",
-            "language" : "React",
-            "title" : "WorkSpace",
-            "description" : "Built in React, a tool to encourage positive self regulated student learning.",
-            "url" : "http://www.google.com",
-            "code" : "http://www.google.com"
-        },
-        {
-            "cover" : "/portfolio/logo1.png",
-            "language" : "React",
-            "title" : "Companion",
-            "description" : "Built in React Native, a app that has diverse features including, audio, api's and location services.",
-            "url" : "http://www.google.com",
-            "code" : "http://www.google.com"
-        },
-        {
-            "cover" : "/portfolio/about01.png",
-            "language" : "React",
+            "language" : "React, Django",
             "title" : "WorkSpace",
             "description" : "Built in React, a tool to encourage positive self regulated student learning.",
             "url" : "http://www.google.com",
@@ -26,17 +10,33 @@
         },
         {
             "cover" : "/portfolio/companion.png",
-            "language" : "React",
-            "title" : "WorkSpace",
-            "description" : "Built in React, a tool to encourage positive self regulated student learning.",
+            "language" : "React Native",
+            "title" : "Companion",
+            "description" : "Built a native Android app that has diverse features including, audio, api's and location services.",
             "url" : "http://www.google.com",
             "code" : "http://www.google.com"
         },
         {
-            "cover" : "/portfolio/about01.png",
-            "language" : "React",
-            "title" : "WorkSpace",
-            "description" : "Built in React, a tool to encourage positive self regulated student learning.",
+            "cover" : "/portfolio/portfolio.png",
+            "language" : "React JS",
+            "title" : "Portfolio",
+            "description" : "Built in React, a collection of my work.",
+            "url" : "http://www.google.com",
+            "code" : "http://www.google.com"
+        },
+        {
+            "cover" : "/portfolio/escapeblock.png",
+            "language" : "Python/PyGame",
+            "title" : "Escape Block",
+            "description" : "Built a strategy game, using various algorithms like Breadth First Search.",
+            "url" : "http://www.google.com",
+            "code" : "http://www.google.com"
+        },
+        {
+            "cover" : "/portfolio/NN.png",
+            "language" : "Python/PyTorch",
+            "title" : "Used Neural Networks for Image Recognition on Fashion Data",
+            "description" : "Built in Python, built a Neural Network using a multi-layered model.",
             "url" : "http://www.google.com",
             "code" : "http://www.google.com"
         }

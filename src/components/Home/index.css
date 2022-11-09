@@ -8,9 +8,36 @@
     align-items: center;
 }
 
-/*  */
-.about {
-    align-self: center;
+/* Intro */
+
+.title {
+    height: 40px;
+    overflow: hidden;
+    margin: 5px 0px 25px 0px;
+}
+
+.wrapper {
+    height: 100%;
+    animation: move 6s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(-100px);
+    }
+}
+
+.item {
+    font-size: 30px;
+    align-items: center;
+    font-weight: bold;
+    background: -webkit-linear-gradient(var(--primary-color), rgb(123, 36, 36));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 50px;
 }
 
 .section-title {
@@ -28,22 +55,6 @@
 
 .grid {
     flex: 1;
-}
-
-.about-text {
-    align-self: center;
-    height: 100%;
-    padding: 10px;
-}
-
-.logoq {
-    width: 60%;
-}
-
-.logs{
-    padding: 2vh;
-    width: 40vh;
-    margin: 2vh;
 }
 
 .flat-button {
@@ -104,43 +115,28 @@
     }
 }
 
-.title {
-    height: 40px;
-    overflow: hidden;
-    margin: 5px 0px 25px 0px;
+/* About */
+.about {
+    align-self: center;
 }
 
-.wrapper {
+.about-text {
+    align-self: center;
     height: 100%;
-    animation: move 10s ease-in-out infinite alternate;
+    padding: 10px;
 }
 
-@keyframes move {
-    25%{
-        transform: translateY(-50px);
-    }
-    50%{
-        transform: translateY(-100px);
-    }
-    75%{
-        transform: translateY(-150px);
-    }
-    100%{
-        transform: translateY(-200px);
-    }
+.logoq {
+    width: 40%;
 }
 
-.item {
-    font-size: 30px;
-    align-items: center;
-    font-weight: bold;
-    background: -webkit-linear-gradient(var(--primary-color), rgb(123, 36, 36));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    height: 50px;
+.logs{
+    padding: 2vh;
+    width: 40vh;
+    margin: 2vh;
 }
 
-/*  */
+/* Skills  */
 .tech {
     width: 40%;
     align-self: center;
@@ -171,3 +167,24 @@ section {
     color: gray;
 }
 
+
+/* Experience */
+
+.certificates {
+    display: inline-flex;
+    width: 70%;
+}
+
+.cert {
+    margin: 5vh 1vh;
+    padding: 1vh 0vh;
+    align-self: center; 
+}
+
+.cert-img {
+    width: 80%;
+}
+
+.cert-text {
+    font-size: 15px;
+}

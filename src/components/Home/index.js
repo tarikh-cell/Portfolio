@@ -1,6 +1,7 @@
 import './index.css'
 import Skills from './skills';
 import About from './about';
+import Experience from './experiences';
 
 const Home = () => {
     const WelcomeMessage = ["I'm","Tarikh","Mukhtar"]
@@ -23,8 +24,6 @@ const Home = () => {
                             <div className='item'>Software Engineer</div>
                             <div className='item'>UI/UX Design</div>
                             <div className='item'>Web Developer</div>
-                            <div className='item'>Java Developer</div>
-                            <div className='item'>Database</div>
                         </div>
                     </div>
                     <a href="/contact" className='flat-button'>Contact Me</a>
@@ -36,6 +35,7 @@ const Home = () => {
 
             <About />
             <Skills />
+            <Experience />
         </div>
     )
 }
@@ -53,8 +53,8 @@ const Line = ({rotation, padL, padU, delay}) => {
 const Background = () => {
     return(
         <div>
-            <Line rotation={'90deg'} delay={'1s'}  />
-            <Line delay={'15s'}  />
+            <Line rotation={'90deg'} padU={'3px'} delay={'15s'}  />
+            <Line padU={'5px'} delay={'1s'}  />
             <Line rotation={'45deg'} delay={'7s'}  />
         </div>
     )
