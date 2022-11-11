@@ -124,10 +124,12 @@
     align-self: center;
     height: 100%;
     padding: 10px;
+    width: 65%;
+    margin: auto;
 }
 
-.logoq {
-    width: 40%;
+.qm-logo {
+    width: 20%;
 }
 
 .logs{

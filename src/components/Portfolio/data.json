@@ -5,40 +5,64 @@
             "language" : "React, Django",
             "title" : "WorkSpace",
             "description" : "Built in React, a tool to encourage positive self regulated student learning.",
-            "url" : "http://www.google.com",
-            "code" : "http://www.google.com"
+            "url" : "https://github.com/tarikh-cell/WSApp",
+            "code" : "https://github.com/tarikh-cell/WSApp"
         },
         {
             "cover" : "/portfolio/companion.png",
             "language" : "React Native",
             "title" : "Companion",
             "description" : "Built a native Android app that has diverse features including, audio, api's and location services.",
-            "url" : "http://www.google.com",
-            "code" : "http://www.google.com"
+            "url" : "https://github.com/tarikh-cell/athan",
+            "code" : "https://github.com/tarikh-cell/athan"
         },
         {
-            "cover" : "/portfolio/portfolio.png",
+            "cover" : "/portfolio/code.png",
             "language" : "React JS",
             "title" : "Portfolio",
             "description" : "Built in React, a collection of my work.",
-            "url" : "http://www.google.com",
-            "code" : "http://www.google.com"
+            "url" : "https://github.com/tarikh-cell/Portfolio",
+            "code" : "https://github.com/tarikh-cell/Portfolio"
+        },
+        {
+            "cover" : "/portfolio/unity.jpg",
+            "language" : "C#",
+            "title" : "Uprisen",
+            "description" : "Built in a First Person Shooter with AI powered enemies.",
+            "url" : "https://github.com/ec19035/Uprisen",
+            "code" : "https://github.com/ec19035/Uprisen"
+        },
+        {
+            "cover" : "/portfolio/NN.png",
+            "language" : "Python/PyTorch",
+            "title" : "Used Neural Networks for Image Recognition on Fashion Data",
+            "description" : "Built a Neural Network using a multi-layered model.",
+            "url" : "https://github.com/tarikh-cell/Neural-Network",
+            "code" : "https://github.com/tarikh-cell/Neural-Network"
+        },
+        {
+            "cover" : "/portfolio/clouddb.jpg",
+            "language" : "Django",
+            "title" : "Cloud Database",
+            "description" : "Hosted on OpenShift platforms, a cloud database that allows CRUD updates as well as user authentication.",
+            "url" : "https://github.com/tarikh-cell/WorkSpace",
+            "code" : "https://github.com/tarikh-cell/WorkSpace"
         },
         {
             "cover" : "/portfolio/escapeblock.png",
             "language" : "Python/PyGame",
             "title" : "Escape Block",
             "description" : "Built a strategy game, using various algorithms like Breadth First Search.",
-            "url" : "http://www.google.com",
-            "code" : "http://www.google.com"
+            "url" : "https://github.com/tarikh-cell/EscapeBlock",
+            "code" : "https://github.com/tarikh-cell/EscapeBlock"
         },
         {
-            "cover" : "/portfolio/NN.png",
-            "language" : "Python/PyTorch",
-            "title" : "Used Neural Networks for Image Recognition on Fashion Data",
-            "description" : "Built in Python, built a Neural Network using a multi-layered model.",
-            "url" : "http://www.google.com",
-            "code" : "http://www.google.com"
+            "cover" : "/portfolio/FDM.jpg",
+            "language" : "Java/Java FX",
+            "title" : "FDM",
+            "description" : "Scheduling app.",
+            "url" : "https://github.research.its.qmul.ac.uk/ec19269/SE_Project",
+            "code" : "https://github.research.its.qmul.ac.uk/ec19269/SE_Project"
         }
     ]
 }

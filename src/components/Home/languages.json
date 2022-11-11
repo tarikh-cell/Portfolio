@@ -48,6 +48,10 @@
         {
             "cover" : "/png/openshift.png",
             "title" : "OpenShift"
+        },
+        {
+            "cover" : "/png/unity.png",
+            "title" : "Unity"
         }
     ]
 }

@@ -22,8 +22,8 @@ const Portfolio = () => {
                                         <p className='card-title'>{port.title}</p>
                                         <p className='card-description'>{port.description}</p>
                                     </div>
-                                    <a className='btn' href={port.url}>GitHub</a>
-                                    <a className='btn' href={port.code}>PreView</a>
+                                    <a className='btn' href={port.url}>Code</a>
+                                    {/* <a className='btn' href={port.code}>PreView</a> */}
                                 </div>
                             )
                         })
