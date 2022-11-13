@@ -21,7 +21,7 @@ const Cv = () => {
     return (
         <div className='cv-wrapper'>
             <div className='top-wrapper'>
-                <FontAwesomeIcon icon={faGraduationCap} style={{color: 'red', rotate: '-20deg', position: 'absolute', top: '30'}} /> 
+                <FontAwesomeIcon icon={faGraduationCap} className='hat' /> 
                 <h1 style={{color: '#fff'}}>CV</h1>
                 <a href='./TarikhMukhtarCV.pdf' download><FontAwesomeIcon icon={faDownload} /></a>
             </div>

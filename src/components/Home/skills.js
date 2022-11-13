@@ -7,7 +7,7 @@ const Skills = () => {
         <div className='container'>
             <h1 className='section-title'>Skills</h1>
             <p>I've worked with a range of programming languages and frameworks.</p>
-            <div>               
+            <div className='tech-wrapper'>               
                 <div className='tech'>
                     {
                         langData.langs.map((lang, index) => {
