@@ -10,10 +10,6 @@
             "title" : "Java"
         },
         {
-            "cover" : "/png/typescript.png",
-            "title" : "TypeScript"
-        },
-        {
             "cover" : "/png/javascript.png",
             "title" : "JavaScript"
         },
@@ -48,6 +44,10 @@
         {
             "cover" : "/png/openshift.png",
             "title" : "OpenShift"
+        },
+        {
+            "cover" : "/png/firebase.png",
+            "title" : "FireBase"
         },
         {
             "cover" : "/png/unity.png",

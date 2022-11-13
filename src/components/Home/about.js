@@ -1,16 +1,33 @@
 import './index.css'
-import code from '../../assets/images/code.png'
 
 const About = () => {
 
     return(
         <div className='container'>
             <h1 className='section-title'>About Me</h1>  
-                <div className='about-text'> 
-                    <p>A BSc Computer Science graduate from Queen Mary University of London, with a background as a Software Engineer experienced in coding Google Play apps, websites, and 
-games.  I have a genuine passion for technology and in general, problem solving. I am currently looking for a graduate scheme to help launch my career.</p>
-                    <img src={require('../../assets/images/QM.png')} className='qm-logo' alt='Queen Mary' />
+                <Draw />
+                <img src={require('../../assets/images/QM.png')} className='qm-logo' alt='Queen Mary' />
+        </div>
+    )
+}
+
+const Draw = () => {
+    return(
+        <div style={{border: '1px solid red', borderRadius: '12px',width: '40%', marginInline: 'auto', marginTop: '5vh'}}>
+            <div style={{display: 'flex', padding: '1vh'}}>
+                <div style={{border: '1px solid red', borderRadius: '50%', height: '1vh', width: '1vh', margin: '5px'}}></div>
+                <div style={{border: '1px solid red', borderRadius: '50%', height: '1vh', width: '1vh', margin: '5px'}}></div>
+                <div style={{border: '1px solid red', borderRadius: '50%', height: '1vh', width: '1vh', margin: '5px'}}></div>
+            </div>
+            <div style={{borderTop: '1px solid red', marginTop: '1vh'}}></div>
+            <>
+                <div style={{display: 'flex', padding: '3vh', justifyContent: 'center', alignItems: 'center'}}>
+                    <code style={{color: 'red', padding: '3vh'}}>
+                        I am a Junior Software Engineer, with an interest in Web Development and UI/UX design. I have experience coding Android apps, Websites and Cloud databases.
+                        I have a genuine passion for technology, and enjoy using logic and creativity to solve problems. I am currently looking for a graduate scheme to help launch my career.
+                    </code>
                 </div>
+            </>
         </div>
     )
 }

@@ -15,15 +15,14 @@ const Portfolio = () => {
                                     <div className='card-content'>
                                         <div className='card-date'>
                                             <img src={clock} style={{width: 14, height: 14, alignSelf: 'center', paddingRight: 5}} alt='clock' /> 
-                                            <p style={{paddingRight: 10, alignSelf: 'center', margin: 0}}>24 Aug, 2022</p> 
-                                            <p style={{color: 'gray', fontSize: 20, alignSelf: 'center', paddingRight: 10, margin: 0}}>•</p> 
+                                            <p style={{paddingRight: 10, alignSelf: 'center', margin: 0}}>{port.date}</p> 
+                                            <p style={{color: '#fff', fontWeight: 'lighter' ,alignSelf: 'center', paddingRight: 10, margin: 0}}>|</p> 
                                             <p style={{color: '#fff', alignSelf: 'center', fontWeight: 'normal', margin: 0}}>{port.language}</p>
                                         </div>
                                         <p className='card-title'>{port.title}</p>
                                         <p className='card-description'>{port.description}</p>
                                     </div>
                                     <a className='btn' href={port.url}>Code</a>
-                                    {/* <a className='btn' href={port.code}>PreView</a> */}
                                 </div>
                             )
                         })

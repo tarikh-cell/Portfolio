@@ -4,65 +4,65 @@
             "cover" : "/portfolio/about01.png",
             "language" : "React, Django",
             "title" : "WorkSpace",
-            "description" : "Built in React, a tool to encourage positive self regulated student learning.",
+            "description" : "As part of my final year project, I built a tool to encourage positive self-regulated student learning.",
             "url" : "https://github.com/tarikh-cell/WSApp",
-            "code" : "https://github.com/tarikh-cell/WSApp"
+            "date" : "06, Apr 2022"
         },
         {
             "cover" : "/portfolio/companion.png",
             "language" : "React Native",
             "title" : "Companion",
-            "description" : "Built a native Android app that has diverse features including, audio, api's and location services.",
+            "description" : "A native Android app that has diverse features including, an audio player, api data and location services.",
             "url" : "https://github.com/tarikh-cell/athan",
-            "code" : "https://github.com/tarikh-cell/athan"
+            "date" : "01 Aug, 2021"
         },
         {
             "cover" : "/portfolio/code.png",
             "language" : "React JS",
             "title" : "Portfolio",
-            "description" : "Built in React, a collection of my work.",
+            "description" : "A website to show my skills and experiences, and display a collection of projects I have worked on.",
             "url" : "https://github.com/tarikh-cell/Portfolio",
-            "code" : "https://github.com/tarikh-cell/Portfolio"
+            "date" : "06, Apr 2022"
         },
         {
             "cover" : "/portfolio/unity.jpg",
             "language" : "C#",
             "title" : "Uprisen",
-            "description" : "Built in a First Person Shooter with AI powered enemies.",
+            "description" : "An exciting multi-level First Person Shooter, with AI powered enemies and tricky obstacles.",
             "url" : "https://github.com/ec19035/Uprisen",
-            "code" : "https://github.com/ec19035/Uprisen"
+            "date" : "11 Jan, 2022"
         },
         {
             "cover" : "/portfolio/NN.png",
             "language" : "Python/PyTorch",
-            "title" : "Used Neural Networks for Image Recognition on Fashion Data",
-            "description" : "Built a Neural Network using a multi-layered model.",
+            "title" : "Used Neural Networks for Image Recognition",
+            "description" : "Built a multi-layered Neural Network, for image recognition on fashion data.",
             "url" : "https://github.com/tarikh-cell/Neural-Network",
-            "code" : "https://github.com/tarikh-cell/Neural-Network"
+            "date" : "20 Mar, 2022"
         },
         {
-            "cover" : "/portfolio/clouddb.jpg",
+            "cover" : "/portfolio/server.png",
             "language" : "Django",
             "title" : "Cloud Database",
-            "description" : "Hosted on OpenShift platforms, a cloud database that allows CRUD updates as well as user authentication.",
+            "description" : "Hosted on OpenShift platforms, a cloud database that allows CRUD updates, as well as user authentication.",
             "url" : "https://github.com/tarikh-cell/WorkSpace",
-            "code" : "https://github.com/tarikh-cell/WorkSpace"
+            "date" : "14 Jan, 2022"
         },
         {
             "cover" : "/portfolio/escapeblock.png",
             "language" : "Python/PyGame",
             "title" : "Escape Block",
-            "description" : "Built a strategy game, using various algorithms like Breadth First Search.",
+            "description" : "A very challenging strategy game, with an AI that creates levels based on user difficulty.",
             "url" : "https://github.com/tarikh-cell/EscapeBlock",
-            "code" : "https://github.com/tarikh-cell/EscapeBlock"
+            "date" : "19 Jun, 2019"
         },
         {
             "cover" : "/portfolio/FDM.jpg",
             "language" : "Java/Java FX",
             "title" : "FDM",
-            "description" : "Scheduling app.",
+            "description" : "As part of my Software Engineering module, I worked as part of a team to build a Scheduling app for FDM.",
             "url" : "https://github.research.its.qmul.ac.uk/ec19269/SE_Project",
-            "code" : "https://github.research.its.qmul.ac.uk/ec19269/SE_Project"
+            "date" : "26 Feb, 2021"
         }
     ]
 }

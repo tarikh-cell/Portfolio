@@ -6,7 +6,7 @@ const Skills = () => {
     return(
         <div className='container'>
             <h1 className='section-title'>Skills</h1>
-            <p>I've worked with a range of programming languages and frameworks</p>
+            <p>I've worked with a range of programming languages and frameworks.</p>
             <div>               
                 <div className='tech'>
                     {

@@ -26,48 +26,6 @@
     animation-fill-mode: forwards;
 }
 
-
-
-
-
-/* .tech-card {
-    width: 190px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-color: rgba(121, 115, 115, 0.768);
-    border-radius: 8px;
-    padding: 1vh;
-    margin: 2rem;
-    transition: transform .2s;
-}
-
-.tech-card:hover {
-    transform: scale(1.1);
-}
-
-.tech-card > img {
-    width: 100%;
-    border-radius: 15px;
-    object-fit: cover;
-}
-
-.bold-text {
-    margin: 10px 5px 0 0;
-    font-size: 15px;
-    font-weight: 500;
-    padding-left: 1vh;
-}
-
-.p-text {
-    margin: 5px 0;
-    font-size: 10px;
-    font-weight: 600;
-    color: grey;
-    padding-left: 1vh; 
-} */
-
 .lines {
     position: absolute;
     top: 0;
@@ -86,7 +44,7 @@
     height: 1px;
     top: 50%;
     left: 0;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(105, 100, 100, 0.1);
     overflow: hidden;
     border-radius: 50%/100px 100px 0 0;
 }
@@ -97,7 +55,6 @@
     background-color: var(--primary-color);
     box-shadow: 5px 5px var(--primary-color);
     animation: drop 2.5s infinite;
-    /* animation-direction: alternate; */
 }
 
 

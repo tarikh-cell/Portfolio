@@ -53,8 +53,8 @@ const Line = ({rotation, padL, padU, delay}) => {
 const Background = () => {
     return(
         <div>
-            <Line rotation={'90deg'} padU={'3px'} delay={'15s'}  />
-            <Line padU={'5px'} delay={'1s'}  />
+            <Line rotation={'90deg'} padU={'3px'} padL={'20vh'} delay={'15s'}  />
+            <Line padU={'20vh'} delay={'2s'}  />
             <Line rotation={'45deg'} delay={'7s'}  />
         </div>
     )
