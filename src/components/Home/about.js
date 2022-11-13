@@ -23,7 +23,7 @@ const Draw = () => {
             <>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                     <code className='about-content'>
-                        I am a Junior Software Engineer, with an interest in Web Development and UI/UX design. I have experience coding Android apps, Websites and Cloud databases.
+                        I am a Computer Science graduate from Queen Mary University of London, with an interest in Software Engineering and Web Development. I have experience coding Android apps, Websites and Cloud databases.
                         I have a genuine passion for technology, and enjoy using logic and creativity to solve problems. I am currently looking for a graduate scheme to help launch my career.
                     </code>
                 </div>

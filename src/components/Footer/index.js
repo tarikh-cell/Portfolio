@@ -9,7 +9,7 @@ const Footer = () => {
                 Copyright 2022 © TM, Inc.<br /><br />
             </section>
             <nav>
-                <a href="/">Privacy Policy</a> | <a href="/">Security</a> | <a href="/">Website Information</a> 
+                <a href="https://github.com/tarikh-cell/Portfolio">Privacy Policy</a> | <a href="https://github.com/tarikh-cell/Portfolio">Security</a> | <a href="https://github.com/tarikh-cell/Portfolio">Website Information</a> 
             </nav>
         </footer>
     )

@@ -11,8 +11,8 @@ const Cv = () => {
                 I dealt with ethical and legal issues like user location, asynchronous storage, and permissions.
                 <ul>
                     <li>Used React Native and Expo CLI to create a Website and Native Android Application.</li>
-                    <li>Created a Cloud Database using Django and hosted on OpenShift</li>
-                    <li>Hosted using FireBase</li>
+                    <li>Created a Cloud Database using Django and hosted on OpenShift.</li>
+                    <li>Hosted website using FireBase.</li>
                 </ul>
             </>
         )
