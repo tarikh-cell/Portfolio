@@ -2,12 +2,12 @@ body {
   margin: 0;
   font: 300 11px/1.4 'Raleway', sans-serif;
   color: #fff;
-  background: #000;
+  background: rgba(15, 23, 42, 1);
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --primary-color: red;
+  --primary-color: rgb(19, 78, 74);
 }
 
 ::-webkit-scrollbar {

@@ -1,0 +1,48 @@
+.qualifications-container {
+    animation: fadeInUp 2s;
+    animation-fill-mode: forwards;
+}
+
+.qualification-title {
+    font-weight: bold;
+    margin-top: 5vh;
+}
+
+.certificates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
+
+.cert {
+    margin: 5vh 1vh;
+    padding: 1vh 0vh;
+    align-self: center; 
+}
+
+.cert-img {
+    width: 300px;
+}
+
+.cert-text {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .qualification-title {
+        margin: 0;
+    }
+
+    .certificates {
+        width: 100%;
+    }
+
+    .cert {
+        margin: 1vh;
+    }
+
+    .cert-img {
+        width: 200px;
+    }
+}

@@ -1,32 +1,39 @@
 .site-container {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
 .portfolio-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .portfolio-card {
-    width: 18%;
-    height: 50vh;
-    border: 1px solid darkslategray;
-    border-radius: 5px;
+    width: 20%;
+    height: 35vh;
     margin: 4vh;
+    border-radius: 8px;
     animation: fadeInUp 2s;
     animation-fill-mode: forwards;
-    box-shadow: 0px 0px 5px inset var(--primary-color);
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.portfolio-card:hover {
+    transform: scale(1.1);
+    /* background-color: rgb(240, 244, 247); */
+    background: linear-gradient(120deg, rgba(148, 234, 204, 0.1), rgba(44, 62, 80, 0.1));
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 .portfolio-image {
-    width: 100%;
-    height: 50%;
+    width: 80%;
     background-position: center;
     background-repeat: no-repeat;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 .card-content {
@@ -49,7 +56,8 @@
 
 .card-title {
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
+    color: #fff;
 }
 
 .card-description {
@@ -58,6 +66,20 @@
     padding: 2px;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: rgb(148, 163, 184);
+}
+
+.card-languages {
+    display: flex;
+}
+
+.card-language {
+    margin-right: 2.5px;
+    font-size: 12px;
+    color: rgb(94 234 212);
+    padding: .5vh 1vh;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
 }
 
 .btn {
@@ -78,13 +100,22 @@
     background: var(--primary-color);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1000px) {
+    .page-title {
+        margin: 0;
+    }
+
     .site-container {
-        margin-top: 15vh;
+        margin-top: 1vh;
     }
 
     .portfolio-card {
         width: 75%;
-        margin: 4vh auto;
+        height: 40vh;
+        margin: 1vh 4vh;
+    }
+
+    .portfolio-image {
+        width: 70%;
     }
 }
