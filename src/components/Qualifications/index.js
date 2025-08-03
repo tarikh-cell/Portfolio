@@ -14,7 +14,7 @@ let arr = [ge, jp, ss, no, aw, an, gh, ja]
 const Qualifications = () => {
         return (
             <div className='qualifications-container'>
-                <h1 className='qualification-title'>Qualifications</h1>
+                <h1 className='page-title'>Qualifications</h1>
                 <div>
                     <div className='certificates'>               
                         {qualify.data.map((data, index) => 

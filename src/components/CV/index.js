@@ -37,6 +37,10 @@ const Section = ({ props }) => {
                 </div>
                 <div className='text'>
                     {props.content}
+                    <ul>{props.content_list ?
+                    <>{props.content_list.map((code, index) => {
+                        return <li key={index}>{code}</li>
+                    })}</> : null}</ul>
                </div>
                {props.technical ? <div className='card-languages'>
                     {props.technical.map((code, index) => {

@@ -78,9 +78,6 @@ nav {
     }
 
     .link-list-icon {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 1vh;
+        display: none;
     }
 }

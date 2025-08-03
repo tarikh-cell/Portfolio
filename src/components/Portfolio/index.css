@@ -40,7 +40,6 @@
     text-align: left;
     height: 34%;
     padding: 1vh;
-    overflow: hidden;
     text-overflow: ellipsis;
 }
 
@@ -100,7 +99,24 @@
     background: var(--primary-color);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
+    .site-container {
+        margin-top: 1vh;
+    }
+
+    .portfolio-card {
+        width: 60vw;
+        height: 50vh;
+        padding: 1vh 4vh;
+        margin: 0;
+    }
+
+    .portfolio-image {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
     .page-title {
         margin: 0;
     }
@@ -111,8 +127,9 @@
 
     .portfolio-card {
         width: 75%;
-        height: 40vh;
-        margin: 1vh 4vh;
+        height: 40%;
+        padding: 1vh 4vh;
+        margin: 0;
     }
 
     .portfolio-image {

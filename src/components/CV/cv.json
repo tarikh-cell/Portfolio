@@ -2,43 +2,54 @@
     "data" : [
         {
             "title": "Professional Experience",
-            "time": "2023 – 2025",
-            "header": "Cognizant | Software Engineer",
-            "content": "Gained experience as part of an agile development team, to create an agent-facing chatbot to improvecustomer experience and assure interactions meet client guidelines. Partook in planning and researchmeetings, contributing to discussions on feasibility, duration and codebase quality. Also, took theinitiative to research and propose new features, that greatly enhanced functionality and improved theoverall user experience.",
+            "time": "Jul 2023 – Jun 2025",
+            "header": "Cognizant | Full Stack Developer",
+            "content_list": ["Proposed, developed and launched new features aimed at increasing user retention and enhancing interaction speed.", 
+                            "Collaborated with cross-functional teams to deliver full-stack software deployments using Angular and Node.js in a live production environment under tight deadlines.",
+                            "Led the architecture and development of synchronous microservices, resulting in a 15% boost in application speed and a 20% decrease in system errors.",
+                            "Spearheaded the decommissioning of the legacy WMIS API and played a key role in the successful rollout of the modern SIPD API, resulting in a more scalable and secure backend system.",
+                            "Provided technical leadership by supporting a junior developer’s growth, enabling them to contribute independently to production-level features.",
+                            "Identified and removed over 2,000 lines of redundant code, improving codebase maintainability and performance."],
             "technical": ["AWS", "JavaScript", "Angular", "SAP", "TypeScript"]
         },
         {
             "title": "",
-            "time": "2020 – 2021",
-            "header": "More Life Home | Internship",
-            "content": "More life home is an environmentally friendly focused non-profit organisation. I was responsible forthe development and design of the company website, working to optimise user experience and maximise engagement. I steered decisions around the development of priorities and campaigns, as well as contributing to the websites blog posts.",
+            "time": "Nov 2020 – Apr 2021",
+            "header": "More Life Home | Front End Developer",
+            "content_list": ["Developed, designed and deployed a responsive, high-performance website using React, TypeScript and Tailwind CSS",
+                            "Optimized website UX and functionality, collaborating on technical priorities and implementing SEO to boost site engagement and visibility.",
+                            "Contributed to blog content creation to support outreach and awareness initiatives."],
             "technical": ["React JS", "SCSS", "JavaScript"]
         },
         {
             "title": "",
-            "time": "",
-            "header": "GE Explorer | Virtual Internship",
-            "content": "I participated in a digital technology analytics program to give me an insight into careers in data engineering and data visualisation. I developed my data visualisation skills on the programme; we used data to create a run chart and KPI (key performance indicators) tables based off simulated aviation data.",
+            "time": "Oct 2020",
+            "header": "GE Explorer | Data Engineering Intern",
+            "content": "Developed data visualisation skills on the programme using data to create a run chart and KPI (key performance indicators) tables based off simulated aviation data.",
             "technical": ""
         },
         {
             "title": "Education",
             "time": "2019 – 2022",
             "header": "Queen Mary University of London",
-            "content": "BSc Computer Science, 1st Class Honours {'\n'} Modules: Neural Networks & Deep Learning, Algorithms & Data Structures, Object-Oriented Programming, Database Systems, Logic and Discrete Structures, Web Development, Computer Systems and Networks",
+            "content": "BSc Computer Science, 1st Class Honours",
+            "content_list": ["Modules: Neural Networks & Deep Learning, Algorithms & Data Structures, Object-Oriented Programming, Database Systems, Logic and Discrete Structures, Web Development, Computer Systems and Networks"],
             "technical": ""
         },
         {
             "title": "Personal Projects",
             "time": "",
-            "header": "Productivity App",
-            "content": "Created an Android app and Website as part of a productivity application, while working I gained a plethora of skills and experiences. I dealt with ethical and legal issues like user location, asynchronous storage and permissions. I also gained valuable insights into aspects of software development like Cloud Computing, UI/UX, and app optimisations.",
+            "header": "WorkSpace | Productivity Application",
+            "content_list": ["Developed a cross-platform productivity application, comprising an Android app and a responsive website using React for the frontend and cloud-based services for the backend.",
+                        "Implemented features involving user authentication, data persistence, and real-time updates while ensuring compliance with privacy standards and platform permissions.",
+                        "Focused on scalable architecture, UI/UX design, and performance optimization to ensure a seamless and secure user experience."
+            ],
             "technical": ["ReactNative", "JavaScript", "Expo", "Django", "OpenShift", "Firebase"]
         },
         {
             "title": "Qualifications",
             "time": "",
-            "header": "Certificates",
+            "header": "Courses",
             "content": "React JS, AWS, Angular JS, Java SE 8, GitHub Co-Pilot, Node JS, Dataiku",
             "technical": ""
         }
